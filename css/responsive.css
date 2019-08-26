@@ -109,7 +109,7 @@ Version: 1.0  */
     }
     #nav ul li {
         /*! padding: 10px; */
-        display: block;
+        /*! display: block; */
         text-align: center;
     }
     #nav ul li a {
@@ -175,7 +175,7 @@ Version: 1.0  */
     #nav ul li {
         display: block;
         text-align: center;
-        /*! padding: 7px; */
+        /*! padding: 7px; */ 
     }
     #nav ul li a {
         text-align: center;

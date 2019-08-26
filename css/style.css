@@ -5,7 +5,7 @@ Author URI: https://www.github.com/iqbalhasandev
 Author Social URI: https://www.facebook.com/iqbalhasan.dev
 Description:PURE HTML CSS TEMPLATE...
 Version: 1.0  */
-
+ 
 /*==========================================================
                 Global Css
 ===========================================================*/
@@ -75,6 +75,7 @@ section {
 
 #nav ul {
   list-style: none;
+  text-align: center;
 }
 
 #nav ul li {
