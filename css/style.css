@@ -76,8 +76,9 @@ section {
 #nav ul {
   list-style: none;
   text-align: center;
+  padding: 0;
 }
-
+ 
 #nav ul li {
   display: inline-block;
   padding: 20px;
