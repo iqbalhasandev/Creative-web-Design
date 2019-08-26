@@ -1,0 +1,329 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /*==========================================================
+                Global Css
+===========================================================*/
+    .container {
+        width: 100%;
+    }
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .logo {
+        float: left;
+        text-align: center;
+    }
+    #nav {
+        float: left;
+        text-align: center;
+    }
+    #nav ul li a {
+        padding: 17px;
+    }
+    /* header area End */
+    /* banner area Start */
+    .banner {
+        min-height: 300px;
+    }
+    .banner-title {
+        font-size: 1.5rem;
+    }
+    .banner-subtitle p {
+        font-size: 0.5rem;
+    }
+    /* banner area End */
+    /* newsletter area Start */
+    #newsletter h1 {
+        font-size: 1rem;
+        padding: 20px;
+    }
+    #newsletter form {
+        float: none;
+    }
+    #newsletter form input[type="email"] {
+        width: 100%;
+    }
+    .subscribe-button {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .subscribe-button:hover {}
+    /* newsletter area End */
+    /* Card-box area Start */
+    .card-box {
+        padding: 20px;
+    }
+    .card {
+        float: none;
+        margin: 0;
+    }
+    .card-icon i {
+        /*! text-align: center; */
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+    .card-subtitle {
+        font-size: 0.8rem;
+    }
+    /* Card-box area End */
+    /* footer area Start */
+    .social-icon a {
+        padding: 10px;
+    }
+    /* footer area End */
+}
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /*==========================================================
+                Global Css
+===========================================================*/
+    .container {
+        width: 100%;
+    }
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .logo {
+        font-size: 2rem;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    #nav {
+        float: none;
+        display: block;
+    }
+    #nav ul li {
+        /*! padding: 10px; */
+        display: block;
+        text-align: center;
+    }
+    #nav ul li a {
+        padding: 1rem;
+    }
+    /* header area End */
+    /* banner area Start */
+    .banner {
+        min-height: 500px;
+    }
+    .banner-title {
+        font-size: 3rem;
+    }
+    /* banner area End */
+    /* newsletter area Start */
+    #newsletter h1 {
+        float: none;
+        text-align: center;
+    }
+    #newsletter form {
+        float: none;
+        /*! text-align: center; */
+        margin-top: 20px;
+    }
+    /* newsletter area End */
+    /* Card-box area Start */
+    .card {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    .card-icon i {
+        /*! text-align: center; */
+    }
+    .card-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    /* Card-box area End */
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /*==========================================================
+                Global Css
+===========================================================*/
+    .container {
+        width: 100%;
+    }
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .logo {
+        padding: 10px;
+        text-align: center;
+        float: none;
+    }
+    #nav {
+        float: none;
+    }
+    #nav ul li {
+        display: block;
+        text-align: center;
+        /*! padding: 7px; */
+    }
+    #nav ul li a {
+        text-align: center;
+        padding: 9px;
+    }
+    /* header area End */
+    /* banner area Start */
+    .banner {
+        min-height: 500px;
+    }
+    .banner-box {
+        /* display: ; */
+    }
+    .banner-title {
+        font-size: 2rem;
+    }
+    .banner-subtitle p {
+        font-size: 0.6rem;
+    }
+    /* banner area End */
+    /* newsletter area Start */
+    #newsletter {
+        padding: 7px;
+    }
+    #newsletter h1 {
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+    }
+    #newsletter form input[type="email"] {
+        width: 100%;
+    }
+    .subscribe-button {
+        margin: 0;
+        margin-top: 10px;
+    }
+    /* newsletter area End */
+    /* Card-box area Start */
+    .card-box {
+        padding: 20px;
+    }
+    .card {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    .card-icon {
+        font-size: 2rem;
+    }
+    .card-icon i {
+        /*! text-align: center; */
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-subtitle {
+        font-size: 0.5rem;
+    }
+    /* Card-box area End */
+    /* footer area Start */
+    #footer {
+        padding: 20px;
+    }
+    .social-icon a {
+        padding: 7px;
+    }
+    .social-icon i {
+        font-size: 0.7rem;
+    }
+    .footer-credit {}
+    /* footer area End */
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /*==========================================================
+                Global Css
+===========================================================*/
+    .container {}
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .logo {
+        float: left;
+        display: inline-block;
+    }
+    #nav {
+        float: left;
+    }
+    #nav ul li {
+        float: left;
+    }
+    /* header area End */
+    /* banner area End */
+    /* Card-box area Start */
+    .card {
+        float: left;
+        width: 35%;
+        margin-left: 1rem;
+    }
+    .card-icon i {
+        /*! text-align: center; */
+    }
+    /* Card-box area End */
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 800px) {
+    .container {
+        width: 80vw;
+    }
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .logo {
+        float: left;
+        font-size: 1.4rem;
+    }
+    #nav {
+        float: right;
+    }
+    #nav ul li {
+        display: inline-block;
+    }
+    #nav ul li a {
+        padding: 40px;
+    }
+    /* header area End */
+    /* banner area Start */
+    .banner-title {
+        font-size: 5rem;
+    }
+    /* banner area End */
+    /* newsletter area Start */
+    #newsletter h1 {
+        float: left;
+        margin: auto 0;
+        text-align: left;
+    }
+    #newsletter form {
+        float: right;
+        margin: auto 0;
+    }
+    /* newsletter area End */
+    /* Card-box area Start */
+    .card {
+        width: 30%;
+        float: left;
+        margin-left: 20px;
+    }
+    .card-icon i {
+        /*! text-align: center; */
+    }
+    /* Card-box area End */
+}

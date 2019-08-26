@@ -1,0 +1,257 @@
+/*==========================================================
+                Global Css
+===========================================================*/
+
+/* 
+*, *::before, *::after {
+  box-sizing: border-box;
+} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "sans-serif", Arial;
+  background-color: rgb(247, 247, 247);
+  color: #ffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+section {
+  background: #fff;
+  overflow: hidden;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*==========================================================
+                Custom Css
+===========================================================*/
+
+/* header area start */
+
+#header {
+  background: #34495e;
+  border-bottom: 5px solid #d35400;
+}
+
+.logo {
+  padding: 34px;
+  float: left;
+  font-size: 1.4rem;
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.logo span {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+#nav {
+  float: right;
+  color: #ecf0f1;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav ul li {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  padding: 40px;
+  transition: 0.3s all cubic-bezier(.39, .58, .57, 1);
+  color: #ecf0f1;
+}
+
+#nav ul li a:hover {
+  background: #e74c3c;
+  color: #fff;
+}
+
+#nav ul li a.active {
+  background: #c0392b;
+  color: #95a5a6;
+}
+
+/* header area End */
+
+/* banner area Start */
+
+.banner {
+  height: 30vw;
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  /*! background-position: center; */
+  background-attachment: fixed;
+  position: relative;
+}
+ 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(15, 15, 15, 0.904);
+}
+
+.banner-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.banner-box-inner {
+  text-align: center;
+  margin: auto;
+}
+
+.banner-title {
+  font-size: 5rem;
+}
+
+.banner-subtitle {}
+
+.banner-subtitle p {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+/* banner area End */
+
+/* newsletter area Start */
+
+#newsletter {
+  background: #34495e;
+  padding: 30px;
+}
+
+#newsletter h1 {
+  float: left;
+  margin: auto 0;
+}
+
+#newsletter form {
+  float: right;
+  margin: auto 0;
+}
+
+#newsletter form input {
+  width: 204px;
+}
+
+#newsletter form input[type="email"] {
+  width: 250px;
+  height: 25px;
+  padding: 7px;
+}
+
+.subscribe-button {
+  height: 43px;
+  margin-left: -30px;
+  background: #e74c3c;
+  outline: none;
+  border: none;
+  color: #ffff;
+  transition: 0.3s all linear;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background: #c0392b;
+}
+
+/* newsletter area End */
+
+/* Card-box area Start */
+
+.card-box {
+  color: #000;
+  padding: 100px;
+}
+
+.card {
+  width: 30%;
+  float: left;
+  margin-left: 15px;
+}
+
+.card-icon {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+  color: #3d3736;
+}
+
+.card-icon i {
+  /*! text-align: center; */
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-subtitle {
+  text-align: justify;
+}
+
+/* Card-box area End */
+
+/* footer area Start */
+
+#footer {
+  background: #2c3e50;
+  padding: 25px;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 20px;
+}
+
+.social-icon a {
+  padding: 20px;
+  background: #040404;
+  border-radius: 50%;
+  min-width: 16px;
+  transition: 0.3s all linear;
+  color: #ffff;
+}
+
+.social-icon a:hover {
+  background: #e74c3c;
+  /*! color: #fbfbfb; */
+}
+
+.social-icon i {
+  min-width: 16px;
+}
+
+.footer-credit {
+  font-size: 0.8rem;
+  font-style: italic;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+/* footer area End */
