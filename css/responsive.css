@@ -29,6 +29,7 @@ Version: 1.0  */
     }
     #nav ul li a {
         padding: 17px;
+        padding: 0;
     }
     /* header area End */
     /* banner area Start */
@@ -106,13 +107,14 @@ Version: 1.0  */
     #nav {
         float: none;
         display: block;
+        /*! text-align: center; */
     }
     #nav ul li {
         /*! padding: 10px; */
-        /*! display: block; */
+        display: block;
         text-align: center;
     }
-    #nav ul li a {
+    #nav ul li a { 
         padding: 1rem;
     }
     /* header area End */
